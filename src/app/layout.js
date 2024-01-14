@@ -1,7 +1,10 @@
-import { Inter } from 'next/font/google'
+
+import { ChakraProvider } from '@chakra-ui/react'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+import MainLayout from './layouts/MainLayout'
+
+import Sidebar from './components/Sidebar'
 
 export const metadata = {
   title: 'Create Next App',
@@ -9,9 +12,14 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body style={{ backgroundColor: '#DDE6ED'}}>
+        <ChakraProvider>
+          <MainLayout sidebar={Sidebar} content={children} />
+        </ChakraProvider>
+      </body>
     </html>
   )
 }
