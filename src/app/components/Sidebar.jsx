@@ -1,6 +1,9 @@
 import { Badge, Box, Divider, Flex, Image, Text } from '@chakra-ui/react'
 
 function Sidebar(){
+
+  // https://github.com/ainurx
+  // https://www.linkedin.com/in/ainur-rahmat-9517a816a/
     return(
       <>
         <Box w='200' mt={'24px'}>
@@ -16,20 +19,14 @@ function Sidebar(){
                     alt='Ainur Rahmat'  
                     objectFit='cover'
                   />
-                  <Text fontSize={'3xl'} color={'white'}>Ainur Rahmat</Text>
-                  <Flex>
-                    <Image src={'/linkedin.png'} boxSize={'38px'}/>
-                    <a 
-                      href='https://github.com/ainurx'
-                      style={{ color: 'white', fontSize: '14px' }}
-                    >https://github.com/ainurx</a>
-                  </Flex>
-                  <Flex>
-                    <Image src={'/github.png'} boxSize={'38px'}/>
-                    <a 
-                      href='https://www.linkedin.com/in/ainur-rahmat-9517a816a/'
-                      style={{ color: 'white', fontSize: '14px' }}
-                    >https://www.linkedin.com/in/ainur-rahmat-9517a816a/</a>
+                  <Text className='primary-font' fontSize={'4xl'} color={'white'}>Ainur Rahmat</Text>
+                  <Flex className='center-x'>
+                    <a href="https://www.linkedin.com/in/ainur-rahmat-9517a816a/" target="_blank">
+                      <Image src={'/linkedin.png'} boxSize={'38px'} mx={1} />
+                    </a>
+                    <a href="https://github.com/ainurx" target="_blank">
+                      <Image src={'/github.png'} boxSize={'38px'} mx={1} />
+                    </a>
                   </Flex>
                 {/* </Center> */}
               </center>
