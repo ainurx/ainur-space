@@ -8,8 +8,15 @@ function Sidebar(){
       <>
         <Box w='200' mt={'24px'}>
           <div style={{ position: 'relative' }}>
-            <div style={{ position: 'absolute', top: 8, left: 8, backgroundColor: 'black', width: '92%', height: '285px' }}></div>
-            <Box p={'8px'} style={{ position: 'absolute', top: 0, backgroundColor: '#864AF9', width: '92%' }}>
+            <Box 
+              bg={'#864AF9'}
+              py={'24px'}
+              top={0} 
+              w='92%'
+              style={{ 
+                position: 'absolute', 
+                boxShadow: '12px 12px #000'
+              }}>
               <center>
                 {/* <Center> */}
                   <Image 
@@ -35,8 +42,13 @@ function Sidebar(){
         </Box>
         <Box mt={'348px'}>
           <div style={{ position: 'relative'}}>
-            <div style={{ position: 'absolute', top: 8, left: 8, backgroundColor: 'black', width: '92%', height: '225px' }}></div>
-            <Box p={'8px'} style={{ position: 'absolute', top: 0, backgroundColor: '#864AF9', width: '92%', height: 'max-content' }}>
+            <Box 
+              bg={'#864AF9'}
+              py={'24px'}
+              px={'16px'}
+              position={'absolute'}
+              w='92%' 
+              style={{ boxShadow: '12px 12px #000'}}>
             {/* <Box style={{ position: 'absolute', top: 0, backgroundColor: '#864AF9', width: '92%', height: '286px' }}> */}
               <Text fontSize={'3xl'} as={'b'} color={'white'}>Skill</Text>
               <div>

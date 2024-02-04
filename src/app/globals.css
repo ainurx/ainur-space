@@ -13,4 +13,16 @@
 .primary-bg{ background-color: #864AF9; }
 
 .center-x{ justify-content: center; }
-/* .center-x{ margin-left: auto; margin-right: auto; } */
+
+.my-navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-navbar ul{
+  display: flex;
+  width: 800px;
+  justify-content: space-evenly;
+  list-style-type: none;
+}

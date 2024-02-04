@@ -12,11 +12,20 @@ export default function Home() {
 
       <Flex flexDirection={'column'} mt={18}>
         <Box pos={'relative'}>
-          <Box pos={'absolute'} top={8} left={4} w={'100%'} h={'214px'} backgroundColor={'black'}></Box>
-          <Box pos={'absolute'} w={'100%'} h={'max-content'} backgroundColor={'white'} border={'4px'} borderColor={'black'} p={4} mt={6}>
+          <Box 
+            pos={'absolute'} 
+            w={'100%'} 
+            h={'max-content'} 
+            backgroundColor={'white'} 
+            border={'4px'} 
+            borderColor={'black'} 
+            p={4} 
+            mt={6}
+            style={{ boxShadow: '12px 12px #000'}}
+            >
             <Works/>
           </Box>
-          <Text pos={'absolute'} top={-4} left={8} className='primary-font primary-bg' py={3} px={2} fontSize={'3xl'} as={'b'}>Work experience</Text>
+          <Text pos={'absolute'} top={-4} left={8} className='primary-font primary-bg' py={1} px={3} fontSize={'3xl'} as={'b'}>Experience</Text>
         </Box>
         <Box mt={260}>
           <Text className='primary-font' fontSize={'4xl'} as={'b'}>Portfolio 👀</Text>
