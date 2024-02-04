@@ -10,11 +10,13 @@ function MyButton({text, isActive, onClick}){
             colorScheme={'Purple.400'}
             rounded={0} 
             top={0} 
-            color={isActive ? 'white' : '#864AF9'}
+            color={'white'}
             onClick={onClick}
             variant={isActive ? 'solid' : 'ghost'}
+            className='primary-font'
             style={{
-                boxShadow: `${ isActive ? '8px 8px #000' : ''}`
+                boxShadow: `${ isActive ? '8px 8px #000' : ''}`,
+                fontSize: '28px'
             }}
         >
             {text}
