@@ -10,6 +10,13 @@
   -webkit-text-stroke-color: black;
 }
 
+.center-v{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .primary-bg{ background-color: #864AF9; }
 
 .center-x{ justify-content: center; }
