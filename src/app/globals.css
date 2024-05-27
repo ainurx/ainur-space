@@ -1,6 +1,6 @@
 @font-face{
   font-family: 'BadaBoom BB';
-  src: url('/public/font/BADABB__.TTF')
+  src: url('../../public/font/BADABB__.TTF')
 }
 
 .primary-font{
