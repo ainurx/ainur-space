@@ -4,9 +4,10 @@ import { Box, Center, Flex, Image, Spacer, Text } from '@chakra-ui/react'
 
 import Works from './components/Works'
 import Portfolio from './components/Portfolio'
+// import Drawer from './components/ui/Drawer'
 
 export default function Home() {
-  const desc = `an Software developer\nexperience in\nWeb development, Mobile development & Web scraping.`
+  const desc = `an Software engineer\nexperience in\nWeb development, Mobile development & Web scraping.`
 
   return (
     <main>
@@ -16,7 +17,7 @@ export default function Home() {
             <Image
               borderRadius='full'
               boxSize='150px'
-              src={'/ainurhmt.jpg'} 
+              src={'/ainurr.jpg'} 
               alt='Ainur Rahmat'  
               objectFit='cover'
             />
@@ -34,6 +35,7 @@ export default function Home() {
               </a>
             </Flex>
           </Center>
+          {/* <Drawer/> */}
         </div>
       </div>
 
