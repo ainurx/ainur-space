@@ -8,8 +8,8 @@ import TempLayout from './layouts/TempLayout'
 import Sidebar from './components/Sidebar'
 
 export const metadata = {
-  title: 'ainur.site',
-  description: 'Full stack developer',
+  title: 'ainur space',
+  description: 'Software engineer',
 }
 
 export default function RootLayout({ children }) {
